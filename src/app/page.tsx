@@ -139,7 +139,7 @@ export default function Home() {
       ) : showLoveResult ? (
         <div className="love-result text-center max-w-2xl px-4">
           <h2 className="text-3xl sm:text-4xl font-bold mb-6 text-black">You are my everything ❤️</h2>
-          <p className="text-lg sm:text-xl whitespace-pre-line text-black bg-white p-4 rounded-[30px]">{loveText}</p>
+          <p className="text-lg sm:text-xl whitespace-pre-line text-black bg-white p-4 rounded-[30px] italic">{loveText}</p>
         </div>
       ) : (
         <div className="final-question text-center w-full px-4">
