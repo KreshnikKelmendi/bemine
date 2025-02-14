@@ -96,7 +96,7 @@ export default function Home() {
     <div className="flex flex-col items-center justify-center min-h-screen text-white p-4 sm:p-8">
       <audio ref={audioRef} src={loveSong} preload="auto" />
       <main className="flex items-center justify-center absolute bottom-5 right-5 z-50">
-        <div className="text-red-500 animate-heartbeat text-6xl">❤️</div>
+        <div className="text-red-500 animate-heartbeat text-3xl">❤️</div>
       </main>
       <main className="flex items-center justify-center absolute top-5 right-64 z-50">
         <div className="text-red-500 animate-heartbeat text-3xl">❤️</div>
